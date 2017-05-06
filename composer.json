@@ -1,0 +1,21 @@
+{
+    "name": "codevery/yii2form",
+    "description": "Yii2 extension",
+    "type": "yii2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandr Naumenko",
+            "email": "nay@codevery.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "codevery\\yii2form\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "codevery\\yii2form\\FormBuilderBootstrapClass"
+    }
+}
